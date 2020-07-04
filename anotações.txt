@@ -1,0 +1,23 @@
+cd criar diretorios frontend e backend
+dentro de backend rodar npm init -y
+também rodar npm i json-server
+json-server lê um json e cria uma api baseado nele.
+criar db.json
+rodar npm start em backend
+na pasta raiz do projeto npm i -g @angular/cli
+ng new frontend --minimal cria um novo projeto angular
+dentro da pasta criada do angular rodar npm start
+IMPORTANTE DEIXAR O TERMINAL DA API E DO ANGULAR ABERTOS
+ng add @angular/material para adicionar os estilos do material
+separar o template (html) do arquivo typescript
+ng generate component caminho do template OU ng g c caminho  cria um novo componente
+todo modulo que for ser usado (ex.: bootstrap, material) terá que ser importado em app.modules.ts
+e a referencia colocada em imports
+o html e css são escritos normalmente
+ng g s services/nome cria um novo service
+ng g d caminho cria uma diretiva, diretivas estruturais tem * na 
+frente na tag
+sempre que precisar usar a rota tem que injetar a dependencia de
+rotas no construtor
+o service acessa o backend para o component ter menos 
+responsabilidades possiveis
